@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keep Eagle Rock Rec Center Safe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Keep Eagle Rock Rec Center Safe for Kids</h1>
+    <p>Send a message to Councilmember Jurado expressing your concern about off-leash dogs on the baseball fields.</p>
+  </header>
+
+  <main>
+    <form action="https://formspree.io/f/yourFormID" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="_replyto" placeholder="you@example.com" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="10">
+Dear Councilmember,
+
+I respectfully urge the City to address this issue before someone is harmed.
+
+Sincerely,
+[Your Name]
+      </textarea>
+
+      <button type="submit">Send to Councilmember</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Thank you for helping keep our parks safe!</p>
+  </footer>
+</body>
+</html>
